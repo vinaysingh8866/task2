@@ -83,6 +83,12 @@ Sell Stock
 | `aid` | `string` | **Required**. asset Id |
 | `amount` | `string` | **Required**. amount to buy  |
 
+Get Price
+
+```http
+  Socket /
+```
+Send name of cryptocurrency to get latest price
 ## Installation
 
 Install requirements
@@ -116,4 +122,5 @@ Start the server
 ```bash
   python3 app.py
 ```
+
 
